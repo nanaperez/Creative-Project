@@ -5,16 +5,21 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Viajes Por El Mundo</title>
+        <title>Viajes Por Costa Rica</title>
 
         <!-- Bootstrap core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Custom fonts for this template -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Kumar+One+Outline|Open+Sans|Patrick+Hand|Ubuntu" rel="stylesheet">
 
         <!-- Custom styles for this template -->
-        <link href="css/agency.min.css" rel="stylesheet">
+        <link href="css/agency.css" rel="stylesheet">
 
         <!-- Favicon -->
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -22,30 +27,33 @@
 
     <body>
         <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">VIAJES POR EL MUNDO</a>
-                <!-- <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                    <span class="fas fa-globe-americas"></span>
+                    VIAJES POR COSTA RICA
+                </a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
-                </button> -->
+                </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#inicio">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#servicios">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#blog">Blog y Noticias</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#soluciones">Soluciones</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#contactenos">Contáctenos</a>
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#lugares">Lugares</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#parques">Parques Nacionales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#consejos">Consejos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#servicios">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#contactenos">Contáctenos</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -56,155 +64,86 @@
             <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in">Bienvenido!</div>
-                <div class="intro-heading text-uppercase">...</div>
-                    <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#servicio">Dime mas</a>
+                    <div class="intro-heading">Viajes por Costa Rica te da un mayor acercamiento a los diferentes lugares que podrás disfrutar en Costa Rica</div>
                 </div>
             </div>
         </header>
 
-        <!-- Services -->
-        <section id="servicios">
+        <!-- Lugares y mas -->
+        <section id="lugares">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="section-heading text-uppercase">Servicios</h2>
-                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                    </div>
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="service-heading">E-Commerce</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="service-heading">Responsive Design</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="service-heading">Web Security</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Blog y Noticias -->
-        <section class="bg-light" id="blog">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading text-uppercase">Blog y Noticias</h2>
-                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                        <h2 class="section-heading text-uppercase">Lugares Mágicos</h2>
+                        <h3 class="section-subheading text-muted">Espectaculares lugares magicos escondidos en los bosques y playas de Costa Rica</h3>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-sm-6 portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fas fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
+                            <img class="img-fluid" src="img/lugares/01-thumbnail.jpg" alt="">
                         </a>
                         <div class="portfolio-caption">
-                            <h4>Threads</h4>
-                            <p class="text-muted">Illustration</p>
+                            <h4>La Paz Waterfall Gardens</h4>
+                            <p class="text-muted">Volcán Poás</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fas fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
+                            <img class="img-fluid" src="img/lugares/02-thumbnail.jpg" alt="">
                         </a>
                         <div class="portfolio-caption">
-                            <h4>Explore</h4>
-                            <p class="text-muted">Graphic Design</p>
+                            <h4>Playa Tamarindo</h4>
+                            <p class="text-muted">Guanacaste</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fas fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
+                            <img class="img-fluid" src="img/lugares/03-thumbnail.jpg" alt="">
                         </a>
                         <div class="portfolio-caption">
-                            <h4>Finish</h4>
-                            <p class="text-muted">Identity</p>
+                            <h4>Aguas Termales</h4>
+                            <p class="text-muted">La Fortuna</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fas fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
+                            <img class="img-fluid" src="img/lugares/04-thumbnail.jpg" alt="">
                         </a>
                         <div class="portfolio-caption">
-                            <h4>Lines</h4>
-                            <p class="text-muted">Branding</p>
+                            <h4>Playa Puerto Viejo</h4>
+                            <p class="text-muted">Limón</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fas fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
+                            <img class="img-fluid" src="img/lugares/05-thumbnail.jpg" alt="">
                         </a>
                         <div class="portfolio-caption">
-                            <h4>Southwest</h4>
-                            <p class="text-muted">Website Design</p>
+                            <h4>Volcán Poás</h4>
+                            <p class="text-muted">Alajuela</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fas fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
+                            <img class="img-fluid" src="img/lugares/06-thumbnail.jpg" alt="">
                         </a>
                         <div class="portfolio-caption">
-                            <h4>Window</h4>
-                            <p class="text-muted">Photography</p>
+                            <h4>Rio Celeste</h4>
+                            <p class="text-muted">Guatuso</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Soluciones -->
-        <section id="soluciones">
+        <!-- Parques Nacionales -->
+        <section class="bg-light" id="parques">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="section-heading text-uppercase">Soluciones</h2>
-                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                        <h2 class="section-heading text-uppercase">Parques Nacionales</h2>
+                        <h3 class="section-subheading text-muted">Las mejores recomendaciones para conocer Costa Rica</h3>
                     </div>
                 </div>
                 <div class="row">
@@ -212,65 +151,61 @@
                         <ul class="timeline">
                             <li>
                                 <div class="timeline-image">
-                                <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                                <img class="rounded-circle img-fluid" src="img/parques/1.jpg" alt="">
                                 </div>
                                 <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                    <h4>Parque Nacional Manuel Antonio</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">Paraíso natural... Este hermoso lugar...</p>
                                 </div>
                                 </div>
                             </li>
                             <li class="timeline-inverted">
                                 <div class="timeline-image">
-                                    <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+                                    <img class="rounded-circle img-fluid" src="img/parques/2.jpg" alt="">
                                 </div>
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
+                                    <h4>Parque Nacional Marino Ballena</h4>
                                     </div>
                                     <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">Magia escondida... Podras observar ballenas...</p>
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <div class="timeline-image">
-                                    <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                                    <img class="rounded-circle img-fluid" src="img/parques/3.jpg" alt="">
                                 </div>
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
+                                    <h4>Parque Nacional Tortuguero</h4>
                                     </div>
                                     <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">A orillas del mar caribe...</p>
                                     </div>
                                 </div>
                             </li>
                             <li class="timeline-inverted">
                                 <div class="timeline-image">
-                                    <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                                    <img class="rounded-circle img-fluid" src="img/parques/4.jpg" alt="">
                                 </div>
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
+                                    <h4>Parque Nacional Volcán Arenal</h4>
                                     </div>
                                     <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">La innegable imponencia...</p>
                                     </div>
                                 </div>
                             </li>
                             <li class="timeline-inverted">
                                 <div class="timeline-image">
-                                    <h4>Be Part
-                                    <br>Of Our
-                                    <br>Story!</h4>
+                                    <h4>Y Muchos
+                                    <br>Más Parques
+                                    <br>Nacionales!</h4>
                                 </div>
                             </li>
                         </ul>
@@ -279,13 +214,65 @@
             </div>
         </section>
 
+        <!-- Consejos -->
+        <section id="consejos">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading text-uppercase">Consejos</h2>
+                        <h3 class="section-subheading text-muted">...</h3>
+                    </div>
+                </div>
+                <div class="row text-center">
+                </div>
+            </div>
+        </section>
+
+        <!-- Servicios -->
+        <section class="bg-light" id="servicios">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading text-uppercase">Servicios</h2>
+                        <h3 class="section-subheading text-muted">Ofrecemos una variedad de servicios que ponemos a disposición de los clientes.</h3>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-suitcase fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="service-heading">Tours</h4>
+                        <p class="text-muted">...</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-glasses fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="service-heading">Asesoria</h4>
+                        <p class="text-muted">...</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-hands-helping fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="service-heading">Acompañamiento</h4>
+                        <p class="text-muted">...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Contactenos -->
-        <section class="bg-light" id="contactenos">
+        <section id="contactenos">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <h2 class="section-heading text-uppercase">Contáctenos</h2>
-                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                        <h3 class="section-subheading text-muted">Para nosotros es muy valiosa su opinión, por favor no dude en contactarnos.</h3>
                     </div>
                 </div>
                 <div class="row">
@@ -294,28 +281,28 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
+                                        <input class="form-control" id="name" type="text" placeholder="Nombre *" required="required" data-validation-required-message="Por favor ingrese su nombre.">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="form-group">
-                                        <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
+                                        <input class="form-control" id="email" type="email" placeholder="Correo Electrónico *" required="required" data-validation-required-message="Por favor ingrese su correo electrónico.">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="form-group">
-                                        <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
+                                        <input class="form-control" id="phone" type="tel" placeholder="Celular *" required="required" data-validation-required-message="Por favor ingrese su número celular.">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
+                                        <textarea class="form-control" id="message" placeholder="Mensaje *" required="required" data-validation-required-message="Por favor ingrese su mensaje." style="resize: none;"></textarea>
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                                 <div class="clearfix"></div>
-                                <div class="col-lg-12 text-center">
+                                <div class="col-lg-12 text-center" style="padding-top: 3%;">
                                     <div id="success"></div>
-                                    <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+                                    <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Enviar Mensaje</button>
                                 </div>
                             </div>
                         </form>
@@ -329,13 +316,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <span class="copyright">Copyright &copy; Your Website 2018</span>
+                        <span class="copyright">Copyright &copy; 2018 - Viajes por Costa Rica</span>
                     </div>
                     <div class="col-md-4">
                         <ul class="list-inline social-buttons">
                             <li class="list-inline-item">
                                 <a href="#">
-                                    <i class="fab fa-twitter"></i>
+                                    <i class="fab fa-instagram"></i>
                                 </a>
                             </li>
                             <li class="list-inline-item">
@@ -345,7 +332,7 @@
                             </li>
                             <li class="list-inline-item">
                                 <a href="#">
-                                    <i class="fab fa-linkedin-in"></i>
+                                    <i class="fab fa-youtube"></i>
                                 </a>
                             </li>
                         </ul>
@@ -353,10 +340,10 @@
                     <div class="col-md-4">
                         <ul class="list-inline quicklinks">
                             <li class="list-inline-item">
-                                <a href="#">Privacy Policy</a>
+                                <a href="#">Política de Privacidad</a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#">Terms of Use</a>
+                                <a href="#">Términos de uso</a>
                             </li>
                         </ul>
                     </div>
